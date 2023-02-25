@@ -6,9 +6,9 @@ const ContactList = ({ contacts, onDeleteContact }) => (
           {name}............
           {number}
         </p>
-        {/* <button type="submit" onClick={() => onDeleteContact(id)}>
+        <button type="submit" onClick={() => onDeleteContact(id)}>
           Delete
-        </button> */}
+        </button>
       </li>
     ))}
   </ul>
