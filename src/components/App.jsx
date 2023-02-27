@@ -47,9 +47,9 @@ class App extends Component {
     );
   };
 
-  deleteContact = todoId => {
+  deleteContact = id => {
     this.setState(prevState => ({
-      contacts: prevState.contacts.filter(contact => contact.id !== todoId),
+      contacts: prevState.contacts.filter(contact => contact.id !== id),
     }));
   };
   render() {
